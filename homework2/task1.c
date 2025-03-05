@@ -21,5 +21,6 @@ int main() {
         printf("Age: %d\n", students[i].Age);
         printf("GPA: %lf\n", students[i].GPA);
     }
+    free(students);
     return 0;
 }
