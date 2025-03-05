@@ -17,6 +17,6 @@ int main() {
     for (int i = 0; i < number; i++) {
         printf("Item: %s\nQuantity: %d\nPrice: %.2lf\n\n", items[i].name, items[i].amount, items[i].price);
     }
-
+    free(items);
     return 0;
 }
